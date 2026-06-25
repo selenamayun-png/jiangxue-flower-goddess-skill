@@ -1,206 +1,38 @@
 
-name: jaden-xiaoZ-illustrations
-description: 生成 Jaden 小Z 风格的中文正文配图。用于为中文文章、帖子、博客、Notion 文档、教学反思、学习方法、AI 工具解释、工作流文档、方法论、流程、结构、状态、隐喻或观点生成“手绘”“正文配图”“文章插图”“配图建议”“shot list”“改图”等任务。默认使用 Jaden 小Z IP：白色小人、黑色手绘轮廓、简洁清爽、少量柔和色彩批注、温暖但有一点怪诞想象力的正文配图风格。
 
-
-# Jaden 小Z 中文正文配图 Skill
+# 十二花神 · 绛雪插画 Skill
 
 ## 核心定位
 
-为中文文章设计和生成 16:9 横版正文配图。
+本 Skill 用于为中文文章、舞动日记、个人成长文字、东方美学内容、教育感悟、Notion 文档、公众号文章、小红书笔记和诗意散文生成 **十二花神 · 绛雪** 风格的正文配图、角色插图和生图提示词。
 
-目标不是做商业插画、PPT 信息图、复杂流程图或幼稚可爱卡通，而是把文章里的关键判断、流程、结构、状态、困惑、转折或隐喻，变成一张清爽、温暖、有创意、可读但不说明书化的手绘解释图。
+它不是普通古风美女生成器，也不是商业海报工具。
 
-默认视觉 IP 是 **Jaden 小Z**。
+它的目标是：
 
-Jaden 小Z 是一个白色小人风格的手绘角色。他有白色身体、黑色轮廓、简单表情，气质安静、好奇、专注。他像一个正在学习、观察、整理世界的小朋友，也像文章里的“思考伙伴”。
+把文章中的情绪、观点、成长、守护、祝福、转折或美感，转化成一张有东方意境、古典舞动感、山茶意象和角色一致性的插图。
 
-小Z 必须参与画面的核心动作，不能只是站在旁边当装饰。
+默认视觉 IP 是：
 
----
+**十二花神 · 绛雪**
 
-## IP 形象：Jaden 小Z
+绛雪以山茶为核心意象，代表：
 
-Jaden 小Z 的基础形象：
+* 雪中花开
+* 红而不艳
+* 温柔而坚定
+* 端庄大气
+* 安静盛放
+* 柔中有骨
+* 守护与陪伴
+* 诗意与分寸感
 
-* 白色小人
-* 黑色手绘轮廓
-* 圆圆的小头或小身体
-* 简单黑色线条四肢
-* 小小的黑色眼睛
-* 表情安静、专注、好奇
-* 可以有一个小小的 Z 标记，例如衣服上、书包上、帽子上或旁边的小物件上
-* 身体比例简单，不追求真实人体比例
-* 动作轻巧，有探索感
-* 不要过度可爱
-* 不要商业吉祥物感
-* 不要二次元
-* 不要写实人物
+绛雪可以有两种形态：
 
-重要视觉要求：
+1. **花神主视觉形态**：端庄、大气、优雅、古典舞感强，适合封面、主视觉、舞动记录。
+2. **Q版卡通形态**：灵动、俏皮、可复用，适合文章正文插图、段落引导、讲解、陪伴、动作包。
 
-小Z 的身体是白色的，但必须有清晰的黑色手绘轮廓，避免在白色背景中消失。
-
-可以通过以下方式让小Z清楚可见：
-
-* 使用黑色轮廓线
-* 使用简单阴影线
-* 使用少量浅黄色、浅蓝色或浅绿色的小道具衬托
-* 在小Z身上保留一个小小的 Z 标记
-* 让小Z通过动作和位置成为画面焦点
-
----
-
-## 小Z 的气质
-
-Jaden 小Z 的气质：
-
-* 好奇
-* 温暖
-* 专注
-* 爱探索
-* 愿意尝试
-* 有一点点天真，但不幼稚
-* 有一点点怪诞想象力，但不混乱
-* 像一个在复杂世界里慢慢找到方法的小学习者
-
-Jaden 小Z 代表：
-
-* 学习中的探索
-* 从混乱中整理线索
-* 把大问题拆成小步骤
-* 从不知道到慢慢看懂
-* 从想法到行动
-* 从困惑到一点点清晰
-* 在复杂工具和信息中找到自己的主线
-
----
-
-## Jaden 小Z 常见动作库
-
-小Z 不能只是站在旁边看。
-
-他必须在图中做一件和核心观点有关的事情。
-
-他可以：
-
-* 举着放大镜观察一个问题
-* 把混乱的纸条分类
-* 推着一个小小的计划轮子往前走
-* 搭一座从“困惑”到“行动”的小桥
-* 把一团线慢慢理顺
-* 把一个大问题切成几个小积木
-* 坐在一堆书、工具或便签中间找主线
-* 把想法种进一个小花盆
-* 给“学习小苗”浇水
-* 打开一扇写着“下一步”的门
-* 用小地图寻找方向
-* 把散落的点连成一条路
-* 用小灯照亮一小块未知区域
-* 从工具箱里挑出真正需要的工具
-* 把乱飞的信息气球一只只拴住
-* 把一个大云团里的问题摘下来，放进小盒子
-* 坐在一张大纸前，把复杂想法画成简单路线
-
-如果把小Z拿掉之后，画面仍然完全成立，说明小Z太装饰了，需要重新设计。
-
----
-
-## 视觉风格
-
-整体画风：
-
-* 16:9 横版构图
-* 纯白背景
-* 简约黑色手绘线稿
-* 大量留白
-* 清爽、温暖、有思考感
-* 适合放在中文文章正文中
-* 像文章边上的一张手绘解释图
-* 有一点童真，但不幼稚
-* 有一点想象力，但不混乱
-* 有一点怪诞感，但不是恐怖、阴暗或猎奇
-
-线条：
-
-* 以黑色手绘线条为主
-* 线条简单、轻松
-* 不要过度精细
-* 不要真实写实
-* 不要复杂阴影
-* 不要厚重漫画上色
-
-颜色：
-
-* 主体以黑白线稿为主
-* 小Z 的身体保持白色
-* 可以少量使用柔和色彩作为批注或道具
-* 推荐颜色：淡黄色、浅蓝色、浅绿色、浅橙色
-* 淡黄色可以表示“灵感 / 光”
-* 浅蓝色可以表示“思考空间 / 冷静”
-* 浅绿色可以表示“成长 / 学习”
-* 浅橙色可以表示“行动 / 温暖”
-* 不要使用强烈商业海报色彩
-* 不要大面积上色
-
-文字：
-
-* 可以加入少量中文手写标注
-* 每张图最多 1–3 处中文标注
-* 每处标注尽量 2–6 个字
-* 中文要短、自然、像手写批注
-* 不要大段文字
-* 不要像 PPT 页面
-* 不要在左上角加“流程图 / 方法论 / 常见问题”等大标题
-
----
-
-## 避免的风格
-
-不要生成：
-
-* 黑色实心小人
-* 二次元
-* 幼稚可爱卡通
-* 商业 IP 吉祥物
-* 复杂信息图
-* PPT 流程图
-* 写实人物
-* 精致商业插画
-* 复杂背景
-* 大面积彩色填充
-* 过度装饰
-* 密密麻麻的文字
-* 严肃企业培训图
-* 过度夸张表情包风格
-* 阴暗、恐怖、猎奇风格
-* 过于潮流玩具化的形象
-
----
-
-## 适合处理的内容
-
-这个 Skill 适合为以下内容设计插图：
-
-* 教学反思
-* 学习方法
-* 学生能力成长
-* ATL skills
-* AI 工具解释
-* 项目式学习 PBL
-* 工作流说明
-* 教育理念文章
-* 家长教育文章
-* 个人成长文章
-* 学习困惑
-* 思维方式转变
-* 从想法到行动
-* Notion 文档
-* 公众号文章
-* 博客文章
-* 方法论文章
-* 项目复盘
-* AI 创作流程说明
+无论哪种形态，绛雪都必须参与画面的核心表达，不能只是漂亮地站在旁边当装饰。
 
 ---
 
@@ -208,14 +40,317 @@ Jaden 小Z 代表：
 
 按任务需要读取，不要一次塞满上下文：
 
-* `references/style-dna.md`：风格 DNA、颜色、文字、禁忌。
-* `references/jaden-xiaoZ-ip.md`：Jaden 小Z IP 的形象、性格、动作库和禁忌。
-* `references/composition-patterns.md`：结构类型、原创隐喻方法和避免重复规则。
+* `references/jiangxue-flower-goddess-ip.md`：十二花神 · 绛雪的形象、气质、动作库和文章插图应用原则。
+* `references/style-dna.md`：整体风格 DNA、颜色、文字、禁忌。
+* `references/composition-patterns.md`：构图方式、隐喻方法和避免重复规则。
 * `references/prompt-template.md`：单张生图提示词模板。
 * `references/qa-checklist.md`：生成后检查和迭代规则。
-* `assets/examples/`：只作低频视觉校准，不进入默认生成路径。不要照抄这些案例的构图、物件或标注。
+* `assets/examples/`：只作低频视觉校准，不进入默认生成路径。不要照抄案例构图、姿态或标注。
 
-如果这些 reference 文件还没有创建，也可以先只根据本 `SKILL.md` 工作。
+如果 reference 文件还没有创建，也可以先只根据本 `SKILL.md` 工作。
+
+---
+
+## 角色设定：十二花神 · 绛雪
+
+### 基础身份
+
+绛雪是以山茶为意象的东方花神角色。
+
+她不是普通茶花仙子，也不是只负责“好看”的古风人物。
+
+她是一个可以持续复用的个人 IP 角色，可以在未来文章中承担：
+
+* 文章主视觉
+* 段落配图
+* 情绪引导
+* 舞动表达
+* 成长隐喻
+* 祝福与守护
+* 诗意讲解
+* 文化审美表达
+* Q版陪伴角色
+
+### 核心气质
+
+绛雪的气质必须稳定保持：
+
+* 端庄
+* 大气
+* 优雅
+* 清雅
+* 温柔
+* 内敛
+* 柔中有骨
+* 有守护感
+* 有东方古典舞感
+* 有安静盛放的力量
+* 可以轻微俏皮，但不能幼稚卖萌
+
+### 核心意象
+
+绛雪的意象来自山茶：
+
+* 岁寒而开
+* 雪中一点胭脂红
+* 红而不俗
+* 柔而不弱
+* 温润而坚定
+* 清雅中有生命力
+* 美感中有内在力量
+
+可以用一句话理解她：
+
+> 绛雪是雪中盛放的一点山茶红，端庄、大气、优雅，温柔里藏着骨气，也带一点灵动俏皮。
+
+---
+
+## 视觉形态
+
+### 1. 花神主视觉形态
+
+适合：
+
+* 封面图
+* 角色设定图
+* 舞动日记头图
+* 十二花神系列主图
+* 东方美学主视觉
+* 诗意文章头图
+
+视觉特点：
+
+* 东方古典女性形象
+* 五官柔和、清秀、温婉
+* 神情安静、自持、优雅
+* 发髻精致
+* 发间有山茶花装饰
+* 可有金色步摇、流苏、珠饰
+* 身姿修长
+* 服装飘逸
+* 有水袖或长飘带
+* 舞姿流动
+* 画面有花枝、花瓣、柔光、水面或雾气
+
+### 2. Q版卡通形态
+
+适合：
+
+* 正文段落配图
+* 公众号文章小插图
+* Notion 页面插图
+* 小红书图文配角
+* 动作表情包
+* 教育、成长、修心类文章中的陪伴角色
+* 解释型插图
+
+视觉特点：
+
+* Q版比例
+* 头身比偏可爱
+* 眼睛灵动
+* 神情温柔
+* 保留山茶花头饰
+* 保留飘带 / 水袖 / 古风元素
+* 柔粉、米白、浅金为主
+* 可做很多动作
+* 可讲解、记录、阅读、思考、祝福、起舞
+
+注意：
+
+Q版可以可爱，但不能幼儿化。
+Q版可以俏皮，但不能表情包化。
+Q版必须保留“雅”和“花神感”。
+
+---
+
+## 视觉风格
+
+整体画风应当根据任务自动选择：
+
+### 如果用户需要主视觉 / 封面 / 舞动主题
+
+使用：
+
+* 东方古典美学
+* 柔和光感
+* 细腻服饰
+* 飘带和水袖
+* 山茶花枝
+* 留白和诗意空间
+* 端庄大气
+* 优雅舞姿
+* 柔粉、米白、浅金、山茶粉色系
+
+### 如果用户需要正文配图 / 文章插图 / 小图解释
+
+使用：
+
+* 更简洁的角色插图
+* Q版或半身形态
+* 白底或浅色背景
+* 不要太复杂
+* 不要做满页海报
+* 每张图只表达一个核心情绪或一个核心概念
+* 让绛雪通过动作、花枝、飘带或手中物件参与表达
+
+---
+
+## 色彩规则
+
+推荐主色：
+
+* 柔粉
+* 山茶粉
+* 米白
+* 奶杏
+* 淡胭脂
+* 雾粉
+* 温润浅金
+
+辅助色可少量使用：
+
+* 豆沙粉
+* 玉色
+* 浅叶绿
+* 柔金
+* 浅桃色
+
+避免：
+
+* 高饱和荧光色
+* 大红大绿撞色
+* 厚重暗黑色
+* 低俗艳丽色
+* 网游仙侠炫彩色
+* 商业海报强对比色
+
+整体色感必须是：
+
+* 清雅
+* 通透
+* 温柔
+* 高级
+* 有东方审美
+* 有山茶花的温润感
+
+---
+
+## 动作库
+
+绛雪不能只是站立摆拍。她必须通过动作参与文章意思。
+
+### 舞动类动作
+
+* 舞动水袖
+* 扬起飘带
+* 提裙旋转
+* 花间起舞
+* 半身回眸
+* 单臂舒展
+* 双臂成圆
+* 指尖拈花
+* 闭目感受
+* 轻轻俯身
+* 抬手引花
+* 花枝旁驻足
+* 倾身而舞
+* 水面轻踏
+* 缓缓行礼
+* 用水袖画出一道弧线
+* 用飘带连接两个意象
+
+### 正文插图常用动作
+
+* 指向某个重点
+* 举起一朵山茶花
+* 手托露珠 / 花瓣 / 小灯 / 书页
+* 展开卷轴
+* 轻扶小书本
+* 做思考表情
+* 做讲解动作
+* 做记录动作
+* 做阅读动作
+* 做祝福动作
+* 做感谢动作
+* 从花瓣中引出一个概念
+* 用姿态表示成长、守护、回信、盛放、沉静、灵感
+* 用花枝或飘带把两个观点连接起来
+
+### Q版常用动作
+
+* 起舞
+* 思考
+* 讲解
+* 记录
+* 打招呼
+* 指引
+* 阅读
+* 庆祝
+* 旋转
+* 灵感出现
+* 工作中
+* 写字
+* 品茶
+* 漫步
+* 感谢
+* 祝福
+* 守护
+* 回眸
+* 轻笑
+* 拈花
+
+---
+
+## 适合处理的内容
+
+本 Skill 特别适合：
+
+* 舞动日记
+* 十二花神系列
+* 山茶主题文章
+* 审美表达
+* 散文 / 诗意文章
+* 个人成长文章
+* 修心、感悟、祝福类内容
+* 东方美学主题
+* 女性气质与内在成长
+* 公众号文章
+* Notion 文档
+* 小红书图文
+* 角色插图
+* 正文配图
+* 段落情绪图
+* 视觉引导图
+* 文化艺术类解释图
+
+也可以适度用于：
+
+* 教育文章中的温柔引导角色
+* 舞蹈 / 美感 / 成长主题图
+* 文化审美类课程材料
+
+---
+
+## 不适合的风格
+
+不要生成：
+
+* 黑色实心小人
+* 小黑式极简怪诞角色
+* 普通 Q版娃娃
+* 幼稚儿童卡通
+* 强二次元偶像风
+* 写实照片风网红模特
+* 过度性感风
+* 戏曲化浓妆角色
+* 武侠女战士
+* 暗黑妖艳风
+* 重宫廷感
+* 浮夸游戏风
+* 大型商业海报感
+* 只摆拍不表达内容的花瓶角色
+* 过度复杂、难以复用的设定
 
 ---
 
@@ -223,49 +358,48 @@ Jaden 小Z 代表：
 
 ### 1. 消化正文
 
-先读用户给的正文、链接、Notion 页面、Markdown 文件或截图内容。
+先阅读用户给出的正文、文章、段落、主题、截图或简短想法。
 
 提炼：
 
+* 核心情绪是什么
 * 核心观点是什么
-* 哪些段落承担认知转折
-* 哪些内容适合用图解释
-* 哪些地方只适合文字，不需要图
-* 文章整体气质是教育、成长、方法论、反思，还是工具说明
+* 哪些段落需要图
+* 哪些地方只是文字说明，不需要图
+* 内容更适合“主视觉花神形态”还是“Q版正文插图形态”
+* 需要表达的是成长、守护、祝福、舞动、解释、转折，还是情绪流动
 
 不要平均配图。
 
-优先选择“认知锚点”，例如：
+优先选择真正适合视觉化的地方，例如：
 
+* 情绪转折
 * 核心判断
-* 常见困惑
-* 两个断点
-* 输入输出闭环
-* 分流
-* 前后对比
-* 一鱼多吃
-* 承接路径
-* 常见坑
-* 角色状态变化
+* 文章结尾升华
 * 从混乱到清晰
-* 从想法到行动
-* 从工具到任务主线
+* 从脆弱到坚定
+* 从感受到表达
+* 从练习到成长
+* 守护、祝福、回信、盛放等意象
 
 ---
 
 ### 2. 先出配图策略
 
-如果用户只是说“分析怎么配图 / 思考哪些地方需要配图 / 给我配图建议”，先给 shot list。
+如果用户只是说“怎么配图 / 给我配图建议 / 设计插图方案 / shot list”，先不要生成图。
+
+先输出 shot list。
 
 每张图写清楚：
 
 * 放在哪个段落后
 * 图的主题
 * 核心意思
-* 结构类型
-* 小Z 在图里做什么
+* 适合使用的形态：主视觉花神 / Q版卡通 / 半身引导 / 小场景
+* 画面隐喻
+* 绛雪在图里做什么
 * 建议元素
-* 建议中文标注词
+* 建议中文标注
 * 生图提示词草案
 
 默认 3–6 张。
@@ -278,86 +412,70 @@ Jaden 小Z 代表：
 
 ### 3. 单张生成
 
-如果用户明确要求“生成 / 输出 / 做图 / 帮我生成图片”，不要停下来等确认；根据当前文章和 shot list 逐张生成。
+如果用户明确要求“生成 / 输出 / 做图 / 帮我生成图片”，不要停下来等确认。
 
-不要把多张图拼在一张里。
+根据当前文章和 shot list 逐张生成。
 
-每张图只讲一个核心结构。
+注意：
 
-提示词必须包含：
-
-* 16:9 横版中文正文配图
-* 纯白背景
-* 简约黑色手绘线稿
-* 白色小人 Jaden 小Z，带黑色轮廓
-* 少量柔和色彩中文手写批注
-* 大量留白
-* Jaden 小Z 作为核心动作主体
-* 禁止 PPT、商业插画、幼稚可爱、复杂架构、左上角类型标题
-
-不要复刻过往案例。
-
-案例只提供风格密度和小Z参与方式，不能直接复用已有构图、物件或标注，除非用户明确要求复刻某张图。
-
-每次都要从当前文章重新发明一个简单、有趣、成立的隐喻。
+* 每张图单独生成
+* 不要把多张图拼在同一张里
+* 不要生成三格漫画，除非用户明确要求
+* 每张图只表达一个核心情绪或一个核心概念
+* 绛雪必须参与核心表达，而不是只站在旁边
+* 中文标注要少，通常 0–3 处即可
+* 主视觉图可以更有氛围
+* 正文配图要更简洁、更可复用
 
 ---
 
-### 4. 检查与迭代
+## 单张生图提示词模板
 
-生成后检查 `references/qa-checklist.md`。
+### A. 主视觉花神形态模板
 
-如果出现以下问题，优先重生成或局部编辑：
+Create a vertical or horizontal Chinese poetic illustration featuring the character 十二花神 · 绛雪.
 
-* 小Z 只是装饰
-* 小Z 变成黑色实心小人
-* 小Z 在白底中看不清
-* 画面太满
-* 太像流程图或 PPT
-* 中文太多
-* 中文错字严重
-* 左上角出现“常见坑 / 流程图 / 系统架构图”等标题
-* 画风太可爱、幼稚、商业化
-* 背景不是干净白底
-* 角色不稳定
-* 画面没有表达文章核心观点
+Character:
+Jiangxue, the Camellia Flower Goddess, an elegant Eastern classical dance character inspired by camellia flowers. She is dignified, graceful, gentle, and quietly powerful. She has a refined updo decorated with camellia flowers, delicate golden hair ornaments, flowing translucent sleeves or ribbons, and a soft pink, ivory, and light gold costume.
 
----
+Style:
+Poetic Eastern aesthetics, graceful classical dance movement, soft light, camellia flowers, flowing silk ribbons, gentle atmosphere, elegant and refined, not overly commercial, not childish, not dark, not overly sexy.
 
-### 5. 保存交付
+Scene:
+[describe the specific scene]
 
-如果用户在 workspace 内工作，把最终图复制到：
+Action:
+Jiangxue is [describe her action], using dance movement, flower branches, flowing sleeves, or ribbons to express [core emotion or idea].
 
-```text
-assets/<article-slug>-illustrations/
-```
+Text:
+Add only short Chinese calligraphy-style text if needed:
+[short label]
 
-按顺序命名：
+Avoid:
+anime idol style, childish cartoon, commercial poster, heavy palace costume, dark fantasy, overly sexy design, cluttered background, excessive text.
 
-```text
-01-topic-name.png
-02-topic-name.png
-03-topic-name.png
-```
+### B. Q版正文插图形态模板
 
-保留原始生成文件，不要覆盖已有资产，除非用户明确要求替换。
+Create a Chinese article illustration featuring a chibi version of 十二花神 · 绛雪.
 
----
+Character:
+Q版绛雪, a cute but elegant chibi Camellia Flower Goddess. She keeps the camellia hair ornament, soft pink and ivory ancient-style dress, flowing mini sleeves or ribbon, warm eyes, graceful but playful expression. She should be lovely but not childish, playful but still elegant.
 
-## 输出口径
+Style:
+Clean white or light background, soft pastel colors, simple readable composition, suitable for article illustration, Notion page, WeChat article, or Xiaohongshu post. Warm, poetic, gentle, and reusable character illustration style.
 
-生成前的策略输出要短而准。
+Scene:
+[describe the specific article scene]
 
-生成后的交付要包含：
+Action:
+Q版绛雪 is [describe her action], helping express [core idea].
 
-* 生成了几张
-* 每张图的用途
-* 保存路径
-* 哪些图最稳
-* 哪些图是可选
+Text:
+Add only 0–3 short Chinese handwritten labels:
+[short labels]
 
-不要长篇解释风格理论。
-优先让图和 shot list 自己说话。
+Avoid:
+overly childish sticker style, strong anime idol style, meme expression, complex infographic, PPT style, commercial mascot look, cluttered background, too much text.
 
 ---
 
@@ -373,80 +491,71 @@ assets/<article-slug>-illustrations/
 **核心意思：**
 这张图表达什么。
 
-**结构类型：**
-例如：前后对比 / 输入输出 / 从混乱到清晰 / 常见坑 / 路径选择 / 小闭环 / 分流。
+**建议形态：**
+主视觉花神 / Q版卡通 / 半身引导 / 小场景。
 
 **画面隐喻：**
-这张图的具体画面是什么。
+具体画面是什么。
 
-**小Z 在做什么：**
-小Z 如何参与核心动作。
+**绛雪在做什么：**
+她如何通过舞姿、飘带、花枝、道具或表情参与表达。
 
 **建议元素：**
-画面中可以出现哪些简单元素。
+山茶花、飘带、水袖、卷轴、书页、露珠、灯、花瓣、水面、柔光等。
 
 **中文标注：**
-1–3 个短中文标注。
+0–3 个短中文标注。
 
 **生图提示词：**
-Create a 16:9 horizontal illustration for a Chinese article, pure white background, simple hand-drawn black line art, large whitespace, warm and reflective feeling, a few soft pale yellow, light blue, light green or light orange handwritten Chinese annotations.
-The main character is Jaden 小Z, a small white hand-drawn character with a clear black outline, calm curious eyes, simple thin limbs, and a small Z mark on his clothes, bag or hat. He is not a black filled character, not overly cute, not anime, not a commercial mascot.
-Scene: [写具体画面]
-Action: 小Z is [写小Z动作].
-Add only 1–3 short Chinese handwritten labels: [写中文标注].
-Avoid PPT style, complex infographic, commercial illustration, childish cartoon, anime style, realistic portrait, detailed background, crowded layout, left-top title, too much text, and black filled character design.
+根据主视觉或Q版正文插图模板输出完整 prompt。
 
 ---
 
-## 单张生图提示词模板
+## 生成后检查
 
-当需要直接生成单张图片时，使用以下模板：
+生成后检查：
 
-```text
-Create a 16:9 horizontal illustration for a Chinese article.
-
-Pure white background.  
-Simple hand-drawn black line art.  
-Large whitespace.  
-Warm, clean, slightly whimsical and reflective feeling.  
-A few soft pale yellow, light blue, light green or light orange handwritten Chinese annotations.
-
-Main character:
-Jaden 小Z, a small white hand-drawn character with a clear black outline, round head or round body, calm curious eyes, simple thin limbs, and a small Z mark on his clothes, bag or hat.  
-The character must be white, not black filled.  
-The black outline must be clear enough to make the white character visible on the white background.
-
-Scene:
-[写具体画面]
-
-Action:
-小Z is [写小Z动作].  
-小Z must participate in the main action, not stand aside as decoration.
-
-Text:
-Add only 1–3 short Chinese handwritten labels:
-[写中文标注]
-
-Avoid:
-PPT style, complex infographic, commercial illustration, childish cartoon, anime style, realistic portrait, detailed background, crowded layout, left-top title, too much text, black filled character design.
-```
+* 是否保留山茶意象？
+* 是否符合“十二花神 · 绛雪”的名字气质？
+* 是否端庄、大气、优雅？
+* 是否有东方古典舞感？
+* 是否有山茶花头饰或花元素？
+* 是否有柔粉、米白、浅金等色彩倾向？
+* 是否避免俗艳、幼稚、夸张？
+* 是否真正参与内容表达，而不是只是站着好看？
+* 如果是 Q版，是否仍然保留“雅”和“花神感”？
+* 如果是正文配图，是否足够简洁、可读、可复用？
+* 如果用户要求多张图，是否是单独生成，而不是拼在一张里？
 
 ---
 
-## 质量检查
+## 保存交付
 
-输出前检查：
+如果用户在 workspace 内工作，把最终图复制到：
 
-* 小Z 有没有参与核心动作？
-* 小Z 是否是白色身体、黑色轮廓？
-* 小Z 是否在白底中清楚可见？
-* 这张图是不是只表达一个观点？
-* 画面是不是足够简单？
-* 有没有足够留白？
-* 中文标注是不是很短？
-* 有没有像 PPT？
-* 有没有太可爱、太幼稚？
-* 是否符合清爽、温暖、有思考感的风格？
-* 是否适合放进中文文章正文里？
-* 是否避免直接复制旧案例？
-* 是否能帮助读者更快理解文章核心意思？
+assets/<article-slug>-illustrations/
+
+按顺序命名：
+
+01-topic-name.png
+02-topic-name.png
+03-topic-name.png
+
+保留原始生成文件，不要覆盖已有资产，除非用户明确要求替换。
+
+---
+
+## 输出口径
+
+生成前的策略输出要短而准。
+
+生成后的交付要包含：
+
+* 生成了几张
+* 每张图的用途
+* 选择的是主视觉形态还是Q版形态
+* 哪些图最稳
+* 哪些图可以继续调整
+
+不要长篇解释风格理论。
+优先让图和 shot list 自己说话。
